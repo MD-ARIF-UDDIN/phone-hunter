@@ -56,7 +56,7 @@ const displayFoundedPhone = (phones) => {
                         <h5>Brand:</h5>
                         <h6 class="brand-title">${phone.brand}</h6>                             
                        </div>
-                     <button onclick="explorePhoneDetails('${phone.slug}')" class="btn btn-successmx-auto">Details</button>
+                     <button onclick="explorePhoneDetails('${phone.slug}')" class="btn btn-success mx-auto">Details</button>
                     </div>
                           `;
       foundedPhone.appendChild(div);
