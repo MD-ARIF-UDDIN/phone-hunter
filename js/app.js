@@ -48,17 +48,16 @@ const displayFoundedPhone = (phones) => {
 
       div.classList.add("col");
       div.innerHTML = `
-                          <div class="card p-4 h-100 shadow p-3">
-                              <img src="${phone.image}" class="card-img-top w-50 mx-auto" alt="...">
-                              <div class="card-body mx-auto">
-                              <h5>Model:</h5>
-                              <h6>${phone.phone_name}</h6>
-                              <h5>Brand:</h5>
-                              <h6 class="brand-title">${phone.brand}</h6>
-                                  
-                              </div>
-                              <button onclick="explorePhoneDetails('${phone.slug}')" class="btn btn-success mx-auto">Details</button>
-                          </div>
+                    <div class="card p-4 h-100 shadow p-3">
+                       <img src="${phone.image}" class="card-img-top w-50 mx-auto" alt="...">
+                       <div class="card-body mx-auto">
+                        <h5>Model:</h5>
+                        <h6>${phone.phone_name}</h6>
+                        <h5>Brand:</h5>
+                        <h6 class="brand-title">${phone.brand}</h6>                             
+                       </div>
+                     <button onclick="explorePhoneDetails('${phone.slug}')" class="btn btn-successmx-auto">Details</button>
+                    </div>
                           `;
       foundedPhone.appendChild(div);
     }
@@ -90,7 +89,7 @@ const displayDetails = (phone_details) => {
               : "Release date not found."
           }</h5>
           <div>
-          <h3 class="text-center text-success">Main Features:</h3>
+          <h3 class="text-success">Main Features:</h3>
           <h4>Storage:</h4>
           <p>${phone_details.mainFeatures.storage}</p>
           <h4>Display Size:</h4>
