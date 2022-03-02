@@ -2,7 +2,7 @@
 const searchPhoneButton = () => {
   const searchField = document.getElementById("search-field").value;
 
-  if (searchField == "") {
+  if (searchField == "" || !isNaN(searchField)) {
     const foundedPhone = document.getElementById("founded-phone");
     foundedPhone.textContent = "";
     const exploredPhone = document.getElementById("explored-phone-details");
@@ -10,7 +10,7 @@ const searchPhoneButton = () => {
     const searchError1 = document.getElementById("search-error1");
     searchError1.classList.remove("d-none");
     searchError1.innerHTML = `
-        <h3 class="text-danger">!Please enter something in the search box</h3>
+        <h3 class="text-danger">!Please enter something valid in the search box</h3>
       `;
   } else {
     const exploredPhoneDetails = document.getElementById(
