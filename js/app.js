@@ -90,7 +90,7 @@ const displayDetails = (phone_details) => {
               : "Release date not found."
           }</h6>
           <div>
-          <h3 class="text-center"><u>Main Features:</u></h3>
+          <h3 class="text-center">Main Features:</h3>
           <h4>Storage:</h4>
           <p>${phone_details.mainFeatures.storage}</p>
           <h4>Display Size:</h4>
