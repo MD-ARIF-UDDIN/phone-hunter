@@ -76,7 +76,8 @@ const explorePhoneDetails = (id) => {
 const displayDetails = (phone_details) => {
   const detailDiv = document.getElementById("explored-phone-details");
   detailDiv.innerHTML = `
-      <div class="row mb-3 w-75 mx-auto ">
+     <div class="card mb-3 container">
+      <div class="row mb-3 w-75 mx-auto">
         <div class=" d-flex justify-content-center col-lg-6 p-3 d-lg-flex justify-content-lg-center align-items-lg-center">
           <img src="${phone_details.image}"  class="w-75 mx-auto">
         </div>
@@ -124,5 +125,6 @@ const displayDetails = (phone_details) => {
           </div>
         </div>
       </div>
+    </div>
     `;
 };
