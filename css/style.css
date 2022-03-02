@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel&family=Monda&family=Montserrat:wght@700&family=Moon+Dance&family=Poppins:wght@300;400;500&family=Quicksand&family=Roboto:wght@400;500&display=swap");
+
+/* for main haeder */
+.main-header {
+  font-family: "Monda", sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
