@@ -77,11 +77,11 @@ const explorePhoneDetails = (id) => {
 const displayDetails = (phone_details) => {
   const detailDiv = document.getElementById("explored-phone-details");
   detailDiv.innerHTML = `
-      <div class="row w-75 mx-auto mb-3">
-        <div class="card d-flex justify-content-center col-lg-6 p-3 d-lg-flex justify-content-lg-center align-items-lg-center">
+      <div class="row mb-3 w-75 mx-auto ">
+        <div class=" d-flex justify-content-center col-lg-6 p-3 d-lg-flex justify-content-lg-center align-items-lg-center">
           <img src="${phone_details.image}"  class="w-75 mx-auto">
         </div>
-        <div class="card col-lg-6 p-3">
+        <div class=" col-lg-6 p-3">
           <h3>Model: ${phone_details.name}</h3>
           <h5>Brand: ${phone_details.brand}</h5>
           <h5>Release date:${
