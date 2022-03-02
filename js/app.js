@@ -79,7 +79,7 @@ const displayDetails = (phone_details) => {
   detailDiv.innerHTML = `
       <div class="row w-75 mx-auto mb-3">
         <div class="card d-flex justify-content-center col-lg-6 p-3 d-lg-flex justify-content-lg-center align-items-lg-center">
-          <img src="${phone_details.image}"  class="w-75">
+          <img src="${phone_details.image}"  class="w-75 mx-auto">
         </div>
         <div class="card col-lg-6 p-3">
           <h3>Model: ${phone_details.name}</h3>
