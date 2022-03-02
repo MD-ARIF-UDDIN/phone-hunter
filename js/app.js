@@ -101,7 +101,7 @@ const displayDetails = (phone_details) => {
           <h4>Sensors:</h4>
           <p>${phone_details.mainFeatures.sensors}</p>
           <p>
-            <h4>Others:</h4><br>
+            <h4>Others:</h4>
            <span>WLAN: ${
              phone_details.others ? phone_details.others.WLAN : "not found"
            }</span><br> 
