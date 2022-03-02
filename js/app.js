@@ -84,13 +84,13 @@ const displayDetails = (phone_details) => {
         <div class="card col-lg-6 p-3">
           <h3>Model: ${phone_details.name}</h3>
           <h5>Brand: ${phone_details.brand}</h5>
-          <h6>Release date:${
+          <h5>Release date:${
             phone_details.releaseDate
               ? phone_details.releaseDate
               : "Release date not found."
-          }</h6>
+          }</h5>
           <div>
-          <h3 class="text-center">Main Features:</h3>
+          <h3 class="text-center text-success">Main Features:</h3>
           <h4>Storage:</h4>
           <p>${phone_details.mainFeatures.storage}</p>
           <h4>Display Size:</h4>
