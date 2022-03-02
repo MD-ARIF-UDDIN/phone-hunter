@@ -84,7 +84,7 @@ const displayDetails = (phone_details) => {
         <div class="card col-lg-6 p-3">
           <h3>Model: ${phone_details.name}</h3>
           <h5>Brand: ${phone_details.brand}</h5>
-          <h6>${
+          <h6>Release date:${
             phone_details.releaseDate
               ? phone_details.releaseDate
               : "Release date not found."
