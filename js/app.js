@@ -2,7 +2,7 @@
 const searchPhoneButton = () => {
   const searchField = document.getElementById("search-field").value;
 
-  if (searchField == "" || !isNaN(searchField)) {
+  if (searchField == "") {
     const foundedPhone = document.getElementById("founded-phone");
     foundedPhone.textContent = "";
     const exploredPhone = document.getElementById("explored-phone-details");
